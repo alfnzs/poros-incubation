@@ -1,0 +1,17 @@
+nav {
+  background-color: #ffd633;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 50px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  nav { 
+    justify-content: center;
+  }
+}
