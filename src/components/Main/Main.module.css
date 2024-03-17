@@ -1,0 +1,48 @@
+main {
+  background-color: black;
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.card1 {
+  background-color: #dbfb15;
+  width: 50%;
+  margin: 5px;
+  border-radius: 10px;
+}
+.card2 {
+  background-color: #2bf2fe;
+  width: 50%;
+  margin: 5px;
+  border-radius: 10px;
+}
+.card3 {
+  background-color: #f474ff;
+  width: 100%;
+  margin: 5px;
+  border-radius: 10px;
+}
+.card4 {
+  background-color: #ff8a8a;
+  width: 100%;
+  margin: 5px;
+  border-radius: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+}
